@@ -48,7 +48,8 @@ int dfs2(int inicio, unordered_map<int, vector<int>>& trans, unordered_map<int, 
 
     while (!stk.empty()) 
     {
-        int v = stk.top(); stk.pop();
+        int v = stk.top(); 
+        stk.pop();
         tam++;
         if (!trans.count(v)) continue;
         for (int i = 0; i < (int)trans[v].size(); i++) 

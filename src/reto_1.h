@@ -1,5 +1,4 @@
 // Alcance Personalizado
-
 #ifndef RETO_1_H
 #define RETO_1_H
 
