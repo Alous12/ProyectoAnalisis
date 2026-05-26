@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// Kosaraju fase 1: DFS iterativo sobre el grafo original, llena la pila por orden de finalizacion
 void dfs1(int inicio, unordered_map<int, bool>& visitado, stack<int>& pila) 
 {
     stack<pair<int, int>> stk;
